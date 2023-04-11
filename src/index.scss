@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  user-select: none;
+}
+:root {
+  --main-bg-color: #fff;
+  --main-content-text-color: #000;
+  --main-em-color: red;
+  --main-hover-color: #0055a5;
+}

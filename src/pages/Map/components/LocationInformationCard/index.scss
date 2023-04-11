@@ -1,0 +1,46 @@
+.card-container-header {
+  background-color: var(--main-hover-color);
+  color: var(--main-bg-color);
+  height: 44px;
+  font-family: "Sarabun", sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 500;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 1px solid var(--main-content-text-color);
+  fill: var(--main-bg-color);
+  width: 300px;
+}
+.card-container-image {
+  padding: 4px;
+}
+.card-container-content {
+  font-family: "Sarabun", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: var(--main-content-text-color);
+}
+.icon {
+  vertical-align: middle;
+  margin-left: 4px;
+  margin-right: 8px;
+}
+.table-header {
+  min-width: 100px;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--main-content-text-color);
+}
+.table-content {
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--main-content-text-color);
+}
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px;
+  margin: 8px;
+}
