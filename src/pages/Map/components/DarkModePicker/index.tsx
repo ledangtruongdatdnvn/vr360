@@ -1,5 +1,4 @@
 import { Box, Button, FormControl, FormLabel } from "@mui/material";
-import { useState } from "react";
 interface DarkModePickerInterface {
   onModeChange: any;
   isDarkMode: boolean;
